@@ -1,0 +1,27 @@
+.nav {
+    height: 500px;
+    width: 150px;
+    margin-top: 5px;
+    padding: 30px 20px;
+    grid-area: n;
+    background-color: rgb(248, 244, 244);
+}
+
+.item {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    margin-top: 15px;
+}
+
+.item a {
+    color: rgb(36, 14, 14);
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.item a.active {
+    color: rgb(0, 68, 255);
+    margin-top: 25px;
+}

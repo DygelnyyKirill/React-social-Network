@@ -1,0 +1,22 @@
+.postBlock {
+    padding: 10px;      
+} 
+
+.item {
+    padding: 10px;
+}
+
+.btn {
+    background: #87c3e6;/*цвет фона*/
+    border-radius: 3px;/*радиус скругления*/
+    box-shadow: 0 -3px 0 0 hsla(0, 0%, 0%, 0.2) inset;/*внутрення тень*/
+    color: #ffffff;/*цвет текста*/
+    display: table;/*элемент таблицы*/
+    font-family: sans-serif;/*семейство шрифта*/
+    font-size: 14px;/*размер текста*/
+    font-weight: bold;/*жирный шрифт*/
+    line-height: 1;/*высота строки*/
+    padding: 10px 25px;/*внутрение отступы*/
+    text-decoration: none;/*убераем подчеркивание*/
+    transition: all 0.5s;/*плавный эффект перехода*/
+}
