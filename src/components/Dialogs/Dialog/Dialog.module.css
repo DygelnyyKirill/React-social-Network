@@ -1,3 +1,17 @@
 .dialog {
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.dialog img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+}
+
+.name {
+    margin-right: 30px;
+    text-align: center;
 }

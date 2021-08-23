@@ -3,7 +3,7 @@ import classes from './PostContent.module.css'
 
 const PostContent = (props) => {
 
-    const postsElement = props.posts.map(post => <Post name={post.message} amount={post.likesCount} />)
+    const postsElement = props.posts.map(post => <Post key={post.id} name={post.message} amount={post.likesCount} />)
 
     return (
         <div className={classes.postBlock}>
